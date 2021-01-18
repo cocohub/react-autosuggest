@@ -21,7 +21,7 @@
     "build": "npm run dist && npm run standalone",
     "gh-pages-build": "npm run prebuild && npm run demo-dist",
     "postversion": "git push && git push --tags",
-    "prepare": "npm run dist && npm run standalone",
+    "prepare": "npm install && npm run dist",
     "precommit": "lint-staged"
   },
   "dependencies": {
