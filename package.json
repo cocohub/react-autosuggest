@@ -81,7 +81,8 @@
   "files": [
     "dist",
     "src/*.js",
-    "*.js"
+    "*.js",
+    ".*"
   ],
   "lint-staged": {
     ".*.js": [
