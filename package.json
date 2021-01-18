@@ -23,7 +23,7 @@
     "postversion": "git push && git push --tags",
     "prepublish": "npm run dist && npm run standalone",
     "precommit": "lint-staged",
-    "install": "npm run dist"
+    "install": "npm install && npm run dist"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
