@@ -79,7 +79,8 @@
     "webpack-dev-server": "^1.16.2"
   },
   "files": [
-    "dist"
+    "dist",
+    "src/*.js"
   ],
   "lint-staged": {
     ".*.js": [
