@@ -1,5 +1,8 @@
 {
-  "presets": ["@babel/env", "@babel/preset-react"],
+  "presets": [
+    "@babel/env",
+    "@babel/preset-react"
+  ],
   "plugins": [
     "@babel/plugin-proposal-class-properties"
   ],
@@ -7,7 +10,8 @@
     "production": {
       "plugins": [
         [
-          "babel-plugin-transform-react-remove-prop-types", {
+          "babel-plugin-transform-react-remove-prop-types",
+          {
             "mode": "wrap"
           }
         ]
@@ -15,7 +19,7 @@
     },
     "test": {
       "plugins": [
-        "istanbul",
+        "istanbul"
       ]
     }
   }
