@@ -4,7 +4,8 @@
   "description": "WAI-ARIA compliant React autosuggest component",
   "main": "dist/index.js",
   "files": [
-    "src"
+    "src",
+    "./*.js"
   ],
   "repository": {
     "type": "git",
