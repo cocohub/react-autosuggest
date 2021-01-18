@@ -22,8 +22,7 @@
     "gh-pages-build": "npm run prebuild && npm run demo-dist",
     "postversion": "git push && git push --tags",
     "prepublish": "npm run dist",
-    "precommit": "lint-staged",
-    "install": "npm install"
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
