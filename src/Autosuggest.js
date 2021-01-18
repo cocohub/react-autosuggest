@@ -741,6 +741,10 @@ export default class Autosuggest extends Component {
               setTimeout(() => {
                 this.justSelectedSuggestion = false;
               });
+            } else {
+                  event.preventDefault();
+                  
+                  _this3.props.search(event.target.defaultValue, true);
             }
 
             break;
