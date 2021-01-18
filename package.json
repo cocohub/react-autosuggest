@@ -21,19 +21,13 @@
     "build": "npm run dist && npm run standalone",
     "gh-pages-build": "npm run prebuild && npm run demo-dist",
     "postversion": "git push && git push --tags",
-    "prepublish": "npm install && npm run dist",
-    "precommit": "lint-staged",
-    "install": "npm run dist"
+    "prepublish": "npm run dist",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-autowhatever": "^10.1.2",
-    "shallow-equal": "^1.0.0"
-  },
-  "peerDependencies": {
-    "react": ">=0.14.7"
-  },
-  "devDependencies": {
+    "shallow-equal": "^1.0.0",
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "autoprefixer": "^6.7.7",
@@ -79,6 +73,12 @@
     "url-loader": "^0.5.9",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.7"
+  },
+  "devDependencies": {
+    
   },
   "files": [
     "dist",
