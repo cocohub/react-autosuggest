@@ -744,7 +744,7 @@ export default class Autosuggest extends Component {
             } else {
                   event.preventDefault();
                   
-                  _this3.props.search(event.target.defaultValue, true);
+                  this.props.search(event.target.defaultValue, true);
             }
 
             break;
